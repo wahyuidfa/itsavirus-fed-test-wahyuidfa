@@ -1,0 +1,56 @@
+.container {
+    margin-top: 60px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.headingContainer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.headingContainer h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.totalContainer {
+    width: 100%;
+    display: flex;
+   /* flex-direction: column; */
+    /* position: absolute; */
+    justify-content: right;  
+    margin-top: 20px;
+    margin-right: 30px;
+    
+}
+
+.total {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #FAFAFA;
+    margin-right: 20px;
+}
+.btnContainer {
+    justify-content: right;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.payButton {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+}

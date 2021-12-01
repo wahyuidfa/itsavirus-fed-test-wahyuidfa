@@ -1,0 +1,141 @@
+.container {
+    margin-top: 100px;
+    width: 97%;
+    border-style: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.allImgContainer {
+    width: 40%;
+}
+
+.imageMainContainer {
+    width: 40%;
+}
+
+.mainImage {
+    width: 450px;
+}
+
+.listImage {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+}
+
+.imageBottom {
+    width: 90px;
+    height: 90px;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.playButton {
+    width: 56px;
+    height: 56px;
+}
+
+.videoButton {
+    width: 56px;
+    /* height: 56px; */
+    /* background: black; */
+}
+
+.sizeWrapper {
+    margin-bottom: 30px;
+}
+
+.sizeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 50%;
+}
+
+.sizeOne {
+    display: flex;
+    border: 1px solid #131212;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.sizeOne:hover {
+    background-color: #131212;
+    color: #fff;
+   
+}
+
+.colorWrapper {
+    margin-bottom: 30px;
+}
+
+.colorList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 50%;
+    
+}
+
+.colorOne {
+    display: flex;
+    width: 48px;
+    height:48px;
+    flex-wrap: wrap;
+    border-radius: 100px;
+    cursor: pointer;
+    border: inherit
+}
+
+.colorOne:hover {
+    border: solid ;
+    width: 48px;
+    height: 48px;
+}
+
+.addToBagContainer {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    background-color: #F6F6F6;
+}
+
+.leftSide {
+    /* width: 70%; */
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightSide {
+
+}
+
+.bagBtn {
+    height: 52px;
+    width: 250px;
+    background-color: #000;
+    color: white;
+    border-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
